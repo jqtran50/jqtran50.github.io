@@ -154,12 +154,12 @@ li:hover {
 	background-color: white
 }
 
-#action:hover {
+.action:hover {
 	background-color: #9999cc;
 	transition: 0.5s;
 {
 
-#otheraction:hover {
+.otheraction:hover {
 	background-color: #9999cc;
 	transition: 0.5s;
 {
