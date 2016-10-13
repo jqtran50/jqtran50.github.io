@@ -61,7 +61,7 @@ body, html {
 	z-index: 10
 }
 
-#action {
+.button {
 	background: #666699;
 	color: white;
 	padding: 16px 64px;
@@ -72,14 +72,8 @@ body, html {
 	float: left
 }
 
-#otheraction {
-	background: #666699;
-	color: white;
-	padding: 16px 64px;
-	border-radius: 2px;
-	float: left;
-	font-size: 16px;
-	font-weight: 700;
+.button:hover {
+	background: #9999cc
 }
 
 #background {
@@ -154,6 +148,3 @@ li:hover {
 	background-color: white
 }
 
-.button:hover {
-	background: #9999cc
-}
