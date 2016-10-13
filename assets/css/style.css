@@ -154,6 +154,6 @@ li:hover {
 	background-color: white
 }
 
-.button {
+.button:hover {
 	background: #9999cc
 }
