@@ -10,13 +10,13 @@ body, html {
 	-o-font-smoothing: antialiased;
 	font-smoothing: antialiased;
 	font-family: 'Lato';
-	background-color: #9999cc;
 }
 
 .img-scaled-wh {
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
+	position: fixed;
 }
 
 .clear {
@@ -62,7 +62,7 @@ body, html {
 }
 
 .button {
-	background: #666699;
+	background: #3B7EA1;
 	color: white;
 	padding: 16px 64px;
 	border-radius: 2px;
@@ -73,7 +73,8 @@ body, html {
 }
 
 .button:hover {
-	background: #9999cc
+	background: #00B0DA
+
 }
 
 #background {
@@ -93,6 +94,7 @@ body, html {
     height: 100%;
     background-color: #000000;
     opacity: 0.5;
+    position: fixed;
 }
 #navbar {
 	top: 0;
@@ -102,16 +104,10 @@ body, html {
 	color: black;
 }
 
-#search {
-	width: 100%
-	font-weight: 300;
-	margin-right: 20px;
-	display: inline-block;
+#navbar-items {
+	float: right;
 }
 
-#navbar-items {
-	float: left;
-}
 ul {
     list-style-type: none;
     margin: 0;
@@ -148,3 +144,7 @@ li:hover {
 	background-color: white
 }
 
+a {
+	color: white;
+	text-decoration: none;
+}
