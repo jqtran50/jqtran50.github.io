@@ -95,7 +95,7 @@ body, html {
 	width: 100%;
 	height: 100%;
 	background-color: #000000;
-	opacity: 0.6;
+	opacity: 0.9;
 }
 #navbar {
 	top: 0;
@@ -299,6 +299,7 @@ a {
 .quote {
 	width: 480px;
 	display: inline-block;
+	font-size: 28px;
 }
 
 .UCtitle {
