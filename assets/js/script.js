@@ -26,6 +26,7 @@ $(document).ready(function() {
         }
     });
 
+
     
     $("#carousel-next").click(function () {
         var mar_left_val = parseInt($('#carousel').css('margin-left').replace("px", ""));
